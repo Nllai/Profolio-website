@@ -1,0 +1,331 @@
+
+
+article{
+	max-width: 80em;
+	margin: 0 auto;
+	border-bottom: 1px solid #ddd;
+	color: #696969;
+    font-family: "Montserrat",Sans-serif;
+    -webkit-font-smoothing: antialiased 
+}
+
+/*Body settings*/
+body{
+	margin:0 auto;
+}
+#background{
+	background:#F5F5F5;
+}
+
+header{
+	height: 0;
+}
+
+img.logo {
+  height: 15vh;
+  margin: 1vh auto 1vh auto;
+  width: 15vw;
+  cursor: pointer;
+}
+
+header:hover img.logo {
+  fill: #FF6347;
+  -webkit-filter: drop-shadow(3px 3px 3px #ddd);
+  filter: drop-shadow(3px 3px 3px #ddd);
+}
+.checkbtn{
+	font-size: 30px;
+	color: #696969;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check{
+	display: none;
+
+}
+@media(min-width: 858px){
+	img.logo{
+		height: 15vh;
+  		margin: 1vh auto 1vh auto;
+ 		width: 15vw;
+ 		padding-left: 50px;
+	}
+	nav ul li a{
+		text-decoration: none;
+		font-size: 16px;
+		font-family: "Montserrat",Sans-serif;
+		color: #696969;
+		text-transform: uppercase;
+		display: block;
+	}
+
+}
+@media (max-width: 858px){
+	.checkbtn{
+		display:block;
+	}
+	nav ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: gold;
+		margin: 80px auto auto -100%;
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+	nav ul li{
+		display: block;
+	}
+	nav ul li a{
+		text-decoration: none;
+		color: #696969;
+		text-transform: uppercase;
+   		font-size: 20px;
+    	font-family: "Montserrat",Sans-serif;
+	}
+	a:hover, a.active{
+		background: none;
+		color: #0082e6;
+	}
+
+}
+
+
+.title{
+	margin: 20vh auto 0 auto;
+	font-family: "Montserrat",Sans-serif;
+	text-align: center;
+	color: #696969;
+}
+.subtitie{
+	margin: 5vh auto;
+	text-align: left;
+}
+.thirdtitle{
+	text-align: left;
+	color:#FF6347;
+}
+
+img{
+	max-width:100%;
+}
+
+.bigcontainer{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+
+}
+.container{
+	width: 100%;
+	position: relative;
+}
+.image1,.image2,.image3,.image4,.image5,.image6{
+	width: 100%;
+	opacity:1;
+	display: block;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.middle {
+  transition: .1s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image1{
+  opacity: 0.3;
+}
+
+.container:hover .middle{
+  opacity: 1;
+}
+
+.middletext {
+  background-color: #F0F0F0;
+  color: #696969;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+/*Mostly fluid Patterns*/
+
+@media screen and (min-width: 650px) and (max-width: 899px){
+	.image1,.image2{
+	 width: 48%;
+	 margin: 1%;
+	 
+	}
+	 .image3,.image4{
+     width: 48%;
+	 margin: 1%;
+     
+    }
+     .image5,.image6{
+     width: 48%;
+	 margin: 1%;
+
+    }
+
+}
+
+@media screen and (min-width: 900px){ 
+	.image1,.image2, .image3{
+	 width: 33.333333%;
+	 margin: auto;
+	}
+	.image4,.image5,.image6{
+      width: 33.333333%;
+    }
+	.centerblock div form div div {
+		display: block;
+	
+	}
+	.form-contact .form-group {
+
+		margin-bottom: 30px;
+		width: 100%;
+	  }
+}
+
+/*4 Zocial icons*/
+
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+
+
+.social{
+	text-align: center;
+}
+.social a {
+  margin: 0 1em 0 0;
+  text-align: center;
+}
+
+.social a:last-of-type {
+  margin: 0;
+
+  }
+.rights{
+	text-align: center;
+	color: #696969;
+	font-family: Montserrat,Sans-serif;
+
+}
+/*Dropdown menu start*/
+
+
+ul{
+	padding: 0;
+	list-style: none;
+	float: right;
+}
+ul li{
+	display: inline-block;
+	position: relative;
+	line-height: 21px;
+	text-align: left;
+}
+ul li a{
+	display: block;
+	padding: 8px 25px;
+	color: #333;
+	text-decoration: none;
+}
+ul li a:hover{
+	color: #FF6347;
+}
+ul li ul.dropdown{
+	min-width: 100%; /* Set width of the dropdown */
+	background: #F0F0F0;
+	display: none;
+	position: absolute;
+	z-index: 999;
+	left: 0;
+}
+ul li:hover ul.dropdown{
+	display: block;	/* Display the dropdown */
+}
+ul li ul.dropdown li{
+	display: block;
+}
+
+/*=================== contact form start ====================*/
+
+.form{
+	margin: auto 3em auto 3em;
+}
+
+
+
+
+.form-contact label {
+  font-size: 14px;
+}
+
+
+.form-contact .form-group {
+  margin-bottom: 30px;
+  width: 49%;
+}
+
+.form-comment {
+	width: 100%;
+}
+
+.form-contact .form-control {
+  border: 2px solid #e5e6e9;
+  border-radius: 10px;
+  height: 48px;
+  padding-left: 18px;
+  font-size: 13px;
+  background: #F0F0F0;
+
+}
+
+.form-contact .form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+
+.form-contact .form-control::placeholder {
+  font-weight: 400;
+  color: #696969;
+  font-size: 14px;
+}
+
+.form-contact textarea {
+  border-radius: 0px;
+  height: 100% !important;
+
+}
+
+/*=================== contact form end ====================*/
+.centerblock_home{
+	height: 100vh;
+}
+.home1{
+	height: 100vh;
+}
+.home2{
+	background: white;
+}
