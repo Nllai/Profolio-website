@@ -25,11 +25,7 @@ header{
 	float: center;
 }
 
-.centerblock {
-	width: 50%;
-	margin: 10vh auto;
-	text-align: left;
-}
+
 
 .centerblock div form div div {
 	display: inline-block;
