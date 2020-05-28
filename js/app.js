@@ -3,6 +3,8 @@ window.onload = function(){
 
   var navbar = document.getElementById("navbar__list")
   var elements = document.getElementsByTagName("section")
+  var smallestNumber = screen.height
+  var smallestId = 'start'
   
 
   for (let i=0; i < elements.length; i++) {

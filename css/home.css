@@ -52,6 +52,32 @@ img.logo {
 	backface-visibility: hidden;
 	
 }
+.projectnav{
+	overflow: hidden;
+	text-align: center;
+	display: inline-block;
+    padding: 3vh;
+  }
+  
+  .projectnav a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	border-top: 3px solid transparent;
+  }
+  
+  .projectnav a:hover {
+	border-top: 3px solid red;
+  }
+  
+  .projectnav a.active {
+	border-top: 3px solid red;
+  }
+
 
 .overlay{
 		transition: .5s ease;
