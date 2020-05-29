@@ -13,16 +13,16 @@
 <body>
 
 <header>
-	<img class="logo" src="../images/logo.svg" alt="logo">
+	<img class="logo" src="../images/logo.svg" alt="logo">  
 </header>
 
 <!--Navbar-->
 
 <nav>
-    <ul>      
-        <li><a href="home.html">Home</a></li>
-        <li><a href="../html/projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
+    <ul>    
+        <li><a onclick="jump('home')">Home</a></li>
+        <li><a onclick="jump('content')">Projects</a></li>
+        <li><a onclick="jump('contact')">Contact</a></li>
     </ul>
 </nav>
 
@@ -32,7 +32,7 @@
 <!-- ================ section 1 ================= -->
 
 <article>
-    <section class="home1">
+    <section class="home1" id="home">
         <div class="centerblock_home">
             <h5 class="title">
                 <img class="pic" src="../images/pic.jpg" alt="image";>
@@ -46,7 +46,7 @@
 
  <!-- ================ section 2 Projects ================= -->
  
-    <section class="home2">
+    <section class="home2" id="content">
         <h4 class="title">Recent Projects</h4>
         <div class="bigcontainer">
             <div class="container">
@@ -58,7 +58,7 @@
 
                 <div class="container">
                     <img class="image" src="../images/project1.png" alt= "image1">  
-                        <div class="overlay" href="projectone.html"></div>
+
                     <div class="middle">
                         <div class="middletext"><a href="projectone.html">View Detail</a></div>
                     </div>
@@ -80,7 +80,7 @@
 
 <!-- ================ section 3 Contact ================= -->
 
-    <section class="home3">
+    <section class="home3" id="contact">
         <h4 class="title">Contact</h4>
         <div class="centerblock">
             <p>Please fill in this form or straightly send me an email: <a href="mailto:lanningz19@gmail.com" target:>lanningz19@gmail.com</a>
