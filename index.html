@@ -55,11 +55,12 @@
                 </div>
 
                 <div class="container tabcontent" id="ux-design">
+                 
                     <div id="p1" class="container">
                         <img class="image" src="images/project1.png" alt="image1">
 
                         <div class="middle">
-                            <div class="middletext"><a href="projectone.html">View Detail</a></div>
+                            <div class="middletext"><a href="#projectone" onclick="openTab(event, 'projectone')" >View Detail</a></div>
                         </div>
                     </div>
                     <p class="explain">Project name: Saas Company Dashboard<br>Service: UI/UX design</p>
@@ -67,15 +68,39 @@
                     <div id="p2" class="container">
                         <img class="image" src="images/project1.png" alt="image2">
                         <div class="middle">
-                            <div class="middletext"><a href="projecttwo.html">View Detail</a></div>
+                            <div class="middletext"><a href="#projecttwo" onclick="openTab(event, 'projecttwo')">View Detail</a></div>
                         </div>
                     </div>
                     <p class="explain">Project name: Meal Plan App<br>Service: UI/UX design</p>
                 </div>
 
+                <div class="container tabcontent" id="projectone">
+                    <a class="projecttitle">Sass Company Dashboard</a>
+                    <video width="100%" height="100%" controls>
+                        <source src="images/projectonevideo.mp4" type="video/mp4">
+                      </video>
+                    <p> <br><br>This is a website interface design for a Sass company's sotware. The main design is divided into four parts: Home, Dashboard, Paper organize and Personal profile. </p>
 
+                    <p> Home: Because of the professionalism and academic nature of this software, the main page settings are as concise as possible, highlighting the key points. </p>
+                        
+                    <p> Dashboard: Divided into two parts: a search results page and an operation page.
+                        <br><br>The search results will be clearly displayed in front of the user in a neat format, including the title and part of the text of the search results, so that users can get a general understanding of the essay content without clicking on the full essay.
+                        <br><br>The setting of the calculation page took the longest time in this project. After consultation with team members, customer trial and four rounds of modification, this simple and effective design was finally decided. In this dashboard, the user can check the content of the article while looking at the calculation results to enhance the understanding of essay.</p>
+                        
+                    <p> Paper organize: Because the titles and authors of academic essays are sometimes long and difficult to remember, this page is a warehouse that stores historical search records. Users can view the essays that have been read according to the five basic arrangement methods or they can organize the essays flexibly by naming some folders themselves.</p>
+                        
+                    <p> Profile: The personal information page also embodies the concise design idea. Users can modify basic information and view the subscription information of the software. </p>
+                        
+                    <p> Color and texture: The theme of the software uses only three colors of gray, white and purple, making the interface as simple and easy to remember as possible. The logo on the top right corner uses special fonts, which is convenient for users to remember and is distinguished from the basic style of the text.</p>
+                         
+                    <p> Workflow:</p>    
+                    <br>
+                    <img src="images/p1-1.jpg" alt="workflow">
+                </div>
+                <div class="container tabcontent" id="projecttwo">hahahha</div>
+               
 
-                <div class="container tabcontent" id="web-development">Hello World</div>
+                <div class="container tabcontent" id="web-development">Coming soon</div>
                     
 
 
@@ -113,9 +138,9 @@
         <section class="home3" id="contact">
             <h4 class="title">Contact</h4>
             <div class="centerblock">
-                <p>Please fill in this form or straightly send me an email: <a href="mailto:lanningz19@gmail.com"
-                        target:>lanningz19@gmail.com</a>
-                    <br>Hire me or just talk, why not?</p>
+                <p>Have a project you'd like to discuss?</p>
+                <p>Send me an email: lanningz19@gmail.com</p>
+                <p>Or simpliy fill in this form:</p>
                 <div>
                     <form class="form-contact" action="contact_process.php" method="post" id="contactForm"
                         novalidate="novalidate">
@@ -163,7 +188,7 @@
                 <a href="http://www.pinterest.com" class="zocial-pinterest">Pinterest</a>
             </div>
             <div class="copyright">
-                <p class="rights"> Copyright © 2020 Lanning Zhang. All rights reserved. </p>
+                <p> Copyright © 2020 Lanning Zhang. All rights reserved. </p>
             </div>
         </footer>
         </div>
