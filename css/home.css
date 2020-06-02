@@ -185,13 +185,24 @@ ul li ul.dropdown li{
 	vertical-align: center;
 }
 
-.container:hover .image {
+#p1:hover .image {
 	opacity: 0.3;
   }
   
-  .container:hover .overlay {
-	opacity: 1;
+
+  
+#p1:hover .middle{
+opacity: 1;
+}
+  
+
+#p2:hover .image {
+	opacity: 0.3;
   }
+  
+#p2:hover .middle{
+opacity: 1;
+}
   
 .centerblock_home {
 	display: flex;
@@ -233,13 +244,8 @@ ul li ul.dropdown li{
 	text-align: left;
 }
 
-.container:hover .middle{
-	opacity: 1;
-  }
-  .container:hover .image1{
-	opacity: 0.3;
-  }
-	
+
+
 .container {
 	position: relative;
 }
