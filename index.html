@@ -3,27 +3,14 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scalre=1.0" ; charset=utf-8>
-    <link rel="stylesheet" href="../css/home.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="https://weloveiconfonts.com/api/?family=zocial" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <header>
-        <img class="logo" src="../images/logo.svg" alt="logo">
-    </header>
 
-    <!--Navbar-->
-
-    <nav>
-        <ul>
-            <li><a onclick="jump('home')">Home</a></li>
-            <li><a onclick="jump('content')">Projects</a></li>
-            <li><a onclick="jump('contact')">Contact</a></li>
-        </ul>
-    </nav>
 
 
 
@@ -32,12 +19,25 @@
 
     <article>
         <section class="home1" id="home">
+            <header>
+                <img class="logo" src="images/logo.svg" alt="logo">
+            </header>
+        
+            <!--Navbar-->
+        
+            <nav>
+                <ul>
+                    <li><a onclick="jump('home')">Home</a></li>
+                    <li><a onclick="jump('content')">Projects</a></li>
+                    <li><a onclick="jump('contact')">Contact</a></li>
+                </ul>
+            </nav>
             <div class="centerblock_home">
                 <h5 class="title">
-                    <img class="pic" src="../images/pic.jpg" alt="image" ;>
-                    <p class="text">Hi, I’m Lanning.
-                        <br>I am a UX designer and Front-end developer based in British Columbia.
-                        <br>Welcome to find me on social media:
+                    <img class="pic" src="images/pic.jpg" alt="image";>
+                    <p class="text">Welcome! This is Lanning.
+                        <br><br>I am a UX designer and Front-end developer based in British Columbia.
+                        
                     </p>
                 </h5>
             </div>
@@ -49,14 +49,14 @@
             <h4 class="title">Recent Projects</h4>
             <div class="bigcontainer">
                 <div class="projectnav">
-                    <a class="tablinks active" onclick="openTab(event, 'ux-design')">UX design</a>
+                    <a class="tablinks active" id="defaultOpen" onclick="openTab(event, 'ux-design')">UX design</a>
                     <a class="tablinks" onclick="openTab(event, 'web-development')">Web development</a>
                     <a class="tablinks" onclick="openTab(event, 'illustration')">Illustration</a>
                 </div>
 
                 <div class="container tabcontent" id="ux-design">
                     <div class="container">
-                        <img class="image" src="../images/project1.png" alt="image1">
+                        <img class="image" src="images/project1.png" alt="image1">
 
                         <div class="middle">
                             <div class="middletext"><a href="projectone.html">View Detail</a></div>
@@ -65,7 +65,7 @@
                     <p class="explain">Project name: Saas Company Dashboard<br>Service: UI/UX design</p>
  
                     <div class="container">
-                        <img class="image" src="../images/project1.png" alt="image2">
+                        <img class="image" src="images/project1.png" alt="image2">
                         <div class="middle">
                             <div class="middletext"><a href="projecttwo.html">View Detail</a></div>
                         </div>
@@ -83,25 +83,25 @@
                 <div class="container tabcontent" id="illustration">
                 
                     <div class="gallery">
-                        <img class="gimage" src="../images/art1.jpg" alt="picture1">
+                        <img class="gimage" src="images/art1.jpg" alt="picture1">
                     </div>
                     <div class="gallery">
-                        <img class="gimage" src="../images/art2.jpg" alt="picture2">
+                        <img class="gimage" src="images/art2.jpg" alt="picture2">
                     </div>
                     <div class="gallery">
-                        <img class="gimage" src="../images/art3.png" alt="picture3">
+                        <img class="gimage" src="images/art3.png" alt="picture3">
                     </div>
                     <div class="gallery">
-                        <img class="gimage" src="../images/art4.jpg" alt="picture4">
+                        <img class="gimage" src="images/art4.jpg" alt="picture4">
                     </div>
                     <div class="gallery">
-                        <img class="gimage" src="../images/art5.jpg" alt="picture5">
+                        <img class="gimage" src="images/art5.jpg" alt="picture5">
                     </div>
                     <div class="gallery">
-                        <img class="gimage" src="../images/art6.jpg" alt="picture6">
+                        <img class="gimage" src="images/art6.jpg" alt="picture6">
                     </div>
                     <div class="gallery">
-                        <img class="gimage" src="../images/art7.jpg" alt="picture7">
+                        <img class="gimage" src="images/art7.jpg" alt="picture7">
                     </div>
 
                 </div>
@@ -167,7 +167,7 @@
             </div>
         </footer>
         </div>
-        <script src="../js/app.js"></script>
+        <script src="js/app.js"></script>
 </body>
 
 </html>

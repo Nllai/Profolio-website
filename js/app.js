@@ -2,6 +2,7 @@ function jump(id){
   document.getElementById(id).scrollIntoView({behavior: "smooth"})
 }
 
+document.getElementById("defaultOpen").click();
 // Tabs setup
 
 

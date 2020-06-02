@@ -17,21 +17,12 @@ body{
 	background: #F5F5F5;
 }
 
-nav{
-	position: fixed;
-	right: 0;
-	background-color: grey;
-	width: 100%;
-	top: 0;
-	
-}
-
 
 
 header{
 	height:0;
-	position: fixed;
 	left:0;
+	float:left;
 }
 img.logo {
 	height: 15vh;
@@ -99,6 +90,7 @@ ul li ul.dropdown li{
 .text {
 	margin-top: 5%;
 	text-align:left;
+	font-size: 3vh;
 }
 .pic{
 	float: left;
@@ -113,8 +105,7 @@ ul li ul.dropdown li{
 .image{
 	opacity:1;
 	display: block;
-	padding: 10px;
-	max-width: 60%;
+	max-width: 100%;
 	max-height: 60%;
 	margin: auto;
 	transition: .5s ease;
@@ -122,20 +113,24 @@ ul li ul.dropdown li{
 	
 }
 
-img {
-	width: 50%;
+.gimage {
+	width: 350px;
 }
 
 .gallery{
-	max-width: 60%;
+	max-width: 100%;
 	max-height: 60%;
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
 }
 .tabcontent{
-	width: 50%;
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	flex-wrap: wrap;
+	margin: auto;
 }
 .projectnav{
 	overflow: hidden;
@@ -166,12 +161,9 @@ img {
 
 
   .bigcontainer{
-	display: flex;
-	flex-wrap: wrap;
-	width: 100vw;
+	width: 45vw;
 	text-align: center;
-	
-
+	margin: auto;
 }
 
 .overlay{
@@ -187,6 +179,12 @@ img {
 		-ms-transform: translate(-50%, -50%);
 		text-align: center;
 }
+.container{
+	width: 100%;
+	text-align: left;
+	vertical-align: center;
+}
+
 .container:hover .image {
 	opacity: 0.3;
   }
@@ -198,22 +196,27 @@ img {
 .centerblock_home {
 	display: flex;
 	width: 100%;
-	margin: auto;
-	background-image:linear-gradient(90deg,#c2e59c, #64b3f4);	
+	margin: 0;
+	height: 80vh;
+
 }
 .centerblock_text{
 	text-align: left;
 
 }
-
+.home1 {
+	background-image:linear-gradient(90deg,#c2e59c, #64b3f4);	
+}
 
 .title{
-	padding-top: 20vh;
+	padding-top: 10vh;
 	font-family: "Montserrat",Sans-serif;
+	font-size: 5vh;
 	text-align: center;
 	color: #696969;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 0;
 }
 
 .centerblock_home div form div div {
@@ -226,23 +229,31 @@ img {
 	
 }
 .explain{
-	width: 50vw;
-	padding: 10px;
-	margin-left:18vw;;
-	margin-right: 20vw;
+	width: 44vw;
 	text-align: left;
 }
 
+.container:hover .middle{
+	opacity: 1;
+  }
+  .container:hover .image1{
+	opacity: 0.3;
+  }
+	
+.container {
+	position: relative;
+}
 .middle {
+	position: absolute;
 	transition: .1s ease;
 	opacity: 0;
-	position: absolute;
 	top: 50%;
 	left: 50%;
 	background-color: #296c99;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	text-align: center;
+	width: 25%;
 
 }
 .middletext {
@@ -311,9 +322,7 @@ img {
 }
 
 /*=================== contact form end ====================*/
-.centerblock_home{
-	height: 100vh;
-}
+
 
   
 footer{
