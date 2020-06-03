@@ -48,7 +48,7 @@ img.logo {
 }
 
 
-  ul{
+  .nav-head {
 	padding: 0;
 	list-style: none;
 	float: right;
@@ -57,23 +57,23 @@ img.logo {
 	
 }
 
-ul li{
+.nav-head li{
 	display: inline-block;
 	position: relative;
 	line-height: 21px;
 	text-align: left;
 
 }
-ul li a{
+.nav-head li a{
 	display: block;
 	padding: 8px 25px;
 	color: #333;
 	text-decoration: none;
 }
-ul li a:hover{
+.nav-head li a:hover{
 	color: #FF6347;
 }
-ul li ul.dropdown{
+.nav-head li   .nav-head.dropdown{
 	min-width: 100%; /* Set width of the dropdown */
 	background: #F0F0F0;
 	display: none;
@@ -81,10 +81,10 @@ ul li ul.dropdown{
 	z-index: 999;
 	left: 0;
 }
-ul li:hover ul.dropdown{
+.nav-head li:hover   .nav-head.dropdown{
 	display: block;	/* Display the dropdown */
 }
-ul li ul.dropdown li{
+.nav-head li   .nav-head.dropdown li{
 	display: block;
 }
 
@@ -113,6 +113,8 @@ ul li ul.dropdown li{
 	backface-visibility: hidden;
 	
 }
+
+.workflow { width: 100%;}
 
 .gimage {
 	width: 100%;
