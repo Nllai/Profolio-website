@@ -114,7 +114,10 @@ img.logo {
 	
 }
 
-.workflow { width: 100%;}
+.workflow { 
+	width: 50%;
+    margin-top: 25vh;
+}
 
 .gimage {
 	width: 100%;
@@ -131,7 +134,7 @@ img.logo {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+
 	flex-wrap: wrap;
 	margin: auto;
 }
@@ -240,7 +243,7 @@ opacity: 1;
 
 .home2{
 	background-color: #f5f5f5;
-	
+	padding-bottom: 10vh;
 }
 .explain{
 	width: 44vw;
@@ -286,9 +289,14 @@ opacity: 1;
 	font-size: 2vw;
 	padding: 3vh;
 	margin-bottom: 5vh;
+	margin-left: auto;
+    margin-right: auto;
 }
 
-
+.illustrationtext{
+	text-align: left;
+	margin: auto;
+}
 /*=================== contact form start ====================*/
 
 
