@@ -148,32 +148,37 @@
                         <br>Welcome to check out more illustration projects on my <a href="https://www.instagram.com/lanningz/?hl=en">Instagram </a> at this moment.
                         <br>Thanks!</p></div>
                     <div class="gallery">
-                        <img class="gimage" src="images/art1.jpg" alt="picture1">
+                        <img id="pic1" class="gimage" src="images/art1.jpg" onclick="open_modal('pic1')" alt="picture1">
                     </div>
                     <div class="gallery">
-                        <img class="gimage" src="images/art2.jpg" alt="picture2">
+                        <img id="pic2" class="gimage" src="images/art2.jpg" onclick="open_modal('pic2')" alt="picture2">
                     </div>
                     <div class="gallery">
-                        <img class="gimage" src="images/art3.jpg" alt="picture3">
+                        <img id="pic3" class="gimage" src="images/art3.jpg" onclick="open_modal('pic3')" alt="picture3">
                     </div>
                     <div class="gallery">
-                        <img class="gimage" src="images/art4.jpg" alt="picture4">
+                        <img id="pic4" class="gimage" src="images/art4.jpg" onclick="open_modal('pic4')" alt="picture4">
                     </div>
                     <div class="gallery">
-                        <img class="gimage" src="images/art5.jpg" alt="picture5">
+                        <img id="pic5" class="gimage" src="images/art5.jpg" onclick="open_modal('pic5')" alt="picture5">
                     </div>
                     <div class="gallery">
-                        <img class="gimage" src="images/art6.jpg" alt="picture6">
+                        <img id="pic6" class="gimage" src="images/art6.jpg" onclick="open_modal('pic6')" alt="picture6">
                     </div>
                     <div class="gallery">
-                        <img class="gimage" src="images/art7.jpg" alt="picture7">
+                        <img id="pic7" class="gimage" src="images/art7.jpg" onclick="open_modal('pic7')" alt="picture7">
                     </div>
                     <div class="gallery">
-                        <img class="gimage" src="images/art8.jpg" alt="picture8">
+                        <img id="pic8" class="gimage" src="images/art8.jpg" onclick="open_modal('pic8')" alt="picture8">
                     </div>
                     <div class="gallery">
-                        <img class="gimage" src="images/art9.jpg" alt="picture9">
+                        <img id="pic9" class="gimage" src="images/art9.jpg" onclick="open_modal('pic9')" alt="picture9">
                     </div>
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                      </div>
                 </div>
             </div>
         </section>
@@ -208,6 +213,7 @@
         </footer>
         </div>
         <script src="js/app.js"></script>
+        <script src="js/modal.js"></script>
 </body>
 
 </html>
