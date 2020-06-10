@@ -129,7 +129,28 @@ img.logo {
 	position: relative;
 	display: flex;
 	justify-content: space-evenly;
+	background-color: black;
 }
+.gallery p {
+	position: absolute;
+	display: none;
+	margin-top: 80%;
+}
+#pic1:hover, #pic2:hover, #pic3:hover, #pic4:hover, #pic5:hover,
+#pic6:hover, #pic7:hover, #pic8:hover, #pic9:hover {
+	opacity: 0.3;
+}
+
+#pic1:hover + p, #pic2:hover + p, #pic3:hover + p, #pic4:hover + p, #pic5:hover + p,
+#pic6:hover + p, #pic7:hover + p, #pic8:hover + p, #pic9:hover + p {
+	display: block;
+	opacity: 1;
+	color: white;
+}
+
+
+
+
 .tabcontent{
 	width: 100%;
 	display: flex;
