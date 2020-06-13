@@ -4,6 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scalre=1.0" ; charset=utf-8>
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/slideshow.css">
     <link rel="stylesheet" href="https://weloveiconfonts.com/api/?family=zocial" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
 </head>
@@ -22,9 +23,9 @@
             <header>
                 <img class="logo" src="images/logo.svg" alt="logo">
             </header>
-        
+
             <!--Navbar-->
-        
+
             <nav>
                 <ul class="nav-head">
                     <li><a onclick="jump('home')">Home</a></li>
@@ -34,10 +35,10 @@
             </nav>
             <div class="centerblock_home">
                 <h5 class="title">
-                    <img class="pic" src="images/pic.jpg" alt="image";>
+                    <img class="pic" src="images/pic.jpg" alt="image" ;>
                     <p class="text">Welcome! This is Lanning.
                         <br><br>I am a UX designer and Front-end developer based in British Columbia.
-                        
+
                     </p>
                 </h5>
             </div>
@@ -55,16 +56,16 @@
                 </div>
                 <!--Project_UX design-->
                 <div class="container tabcontent" id="ux-design">
-                 
+
                     <div id="p1" class="container">
                         <img class="image" src="images/project1.jpg" alt="image1">
 
                         <div class="middle">
-                            <div class="middletext"><a href="#projectone" onclick="openTab(event, 'projectone')" >View Detail</a></div>
+                            <div class="middletext"><a href="#projectone" onclick="openTab(event, 'projectone')">View Detail</a></div>
                         </div>
                     </div>
                     <p class="explain">Project name: Saas Company Dashboard<br>Service: UI/UX design</p>
- 
+
                     <div id="p2" class="container">
                         <img class="image" src="images/project2.jpg" alt="image2">
                         <div class="middle">
@@ -82,71 +83,175 @@
                     <p> <br><br>This is a website interface design for a Sass company's sotware. The main design is divided into four parts: Home, Dashboard, Paper organize and Personal profile. </p>
 
                     <p> Home: Because of the professionalism and academic nature of this software, the main page settings are as concise as possible, highlighting the key points. </p>
-                        
+
                     <p> Dashboard: Divided into two parts: a search results page and an operation page.
-                        <br><br>The search results will be clearly displayed in front of the user in a neat format, including the title and part of the text of the search results, so that users can get a general understanding of the essay content without clicking on the full essay.
-                        <br><br>The setting of the calculation page took the longest time in this project. After consultation with team members, customer trial and four rounds of modification, this simple and effective design was finally decided. In this dashboard, the user can check the content of the article while looking at the calculation results to enhance the understanding of essay.</p>
-                        
-                    <p> Paper organize: Because the titles and authors of academic essays are sometimes long and difficult to remember, this page is a warehouse that stores historical search records. Users can view the essays that have been read according to the five basic arrangement methods or they can organize the essays flexibly by naming some folders themselves.</p>
-                        
+                        <br><br>The search results will be clearly displayed in front of the user in a neat format, including the title and part of the text of the search results, so that users can get a general understanding of the essay content without
+                        clicking on the full essay.
+                        <br><br>The setting of the calculation page took the longest time in this project. After consultation with team members, customer trial and four rounds of modification, this simple and effective design was finally decided. In this
+                        dashboard, the user can check the content of the article while looking at the calculation results to enhance the understanding of essay.</p>
+
+                    <p> Paper organize: Because the titles and authors of academic essays are sometimes long and difficult to remember, this page is a warehouse that stores historical search records. Users can view the essays that have been read according
+                        to the five basic arrangement methods or they can organize the essays flexibly by naming some folders themselves.</p>
+
                     <p> Profile: The personal information page also embodies the concise design idea. Users can modify basic information and view the subscription information of the software. </p>
-                        
-                    <p> Color and texture: The theme of the software uses only three colors of gray, white and purple, making the interface as simple and easy to remember as possible. The logo on the top right corner uses special fonts, which is convenient for users to remember and is distinguished from the basic style of the text.</p>
-                         
-                    <p> Workflow:</p>    
+
+                    <p> Color and texture: The theme of the software uses only three colors of gray, white and purple, making the interface as simple and easy to remember as possible. The logo on the top right corner uses special fonts, which is convenient
+                        for users to remember and is distinguished from the basic style of the text.</p>
+
+                    <p> Workflow:</p>
                     <br>
                     <img class="workflow" src="images/p1-1.jpg" alt="workflow">
                 </div>
                 <div class="container tabcontent" id="projecttwo">
                     <a class="projecttitle">Meal Plan App</a>
                     <p>This is a project when I was taking UX design Nanodegree at Udacity. The theme of the project was selected by myself. </p>
-                    <br><p>Details about this project:
-                    <br> <a href="https://docs.google.com/presentation/d/1HrZF76eJlzXvgpyKqNamwmtQKLL-L-XlaiS6LFyv9FQ/edit?usp=sharingworkflow of each stage. For more information about this project, please check out a research report">Workflow ppt</a> 
-                    <br><a href="https://drive.google.com/file/d/1CXy975Wr3sxVzmePRUuRW6blKp3HXxLa/view?usp=sharing">Research Report ppt</a> </p>
-                    <br><p>In this project, I experienced six stages of ux design: Presenting questions, Researching to collect information, Sketching and making iterations, Low-fi mockup, High-fi mockup, Find ten users to try the mockup and Continue to make iterations.</p>
+                    <br>
+                    <p>Details about this project:
+                        <br><a href="https://docs.google.com/presentation/d/1HrZF76eJlzXvgpyKqNamwmtQKLL-L-XlaiS6LFyv9FQ/edit?usp=sharingworkflow of each stage. For more information about this project, please check out a research report">Workflow ppt</a>
+                        <br><a href="https://drive.google.com/file/d/1CXy975Wr3sxVzmePRUuRW6blKp3HXxLa/view?usp=sharing">Research Report ppt</a> </p>
+
+                    <!-- Container for the image gallery -->
+                    <div class="container">
+
+                        <!-- Full-width images with number text -->
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 6</div>
+                            <img src="images/project2/p2-1.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 6</div>
+                            <img src="images/project2/p2-2.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 6</div>
+                            <img src="images/project2/p2-3.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 6</div>
+                            <img src="images/project2/p2-3.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">5 / 6</div>
+                            <img src="images/project2/p2-5.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">6 / 6</div>
+                            <img src="images/project2/p2-6.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">6 / 6</div>
+                            <img src="images/project2/p2-7.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">6 / 6</div>
+                            <img src="images/project2/p2-8.jpg" style="width:100%">
+                        </div>
+
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                        <!-- Image text -->
+                        <div class="caption-container">
+                            <p id="slideshow-caption"></p>
+                        </div>
+
+                        <!-- Thumbnail images -->
+                        <div class="row">
+                            <div class="column">
+                                <img class="demo cursor" src="images/project2/p2-1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Final Look: Page1-3">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="images/project2/p2-2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Final Look: Page4-5">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="images/project2/p2-3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Research Synthesis">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="images/project2/p2-3.jpg" style="width:100%" onclick="currentSlide(4)" alt="Sketch">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="images/project2/p2-5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Low-Fidelity Mockup | Iteration 1">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="images/project2/p2-6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Iteration 1 | Usability Study">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="images/project2/p2-7.jpg" style="width:100%" onclick="currentSlide(7)" alt="Style Guide: 01-04">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="images/project2/p2-8.jpg" style="width:100%" onclick="currentSlide(8)" alt="Style Guide: 05-06">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="images/project2/p2-3.jpg" style="width:100%" onclick="currentSlide(9)" alt="High-Fidelity Mockup| Iteration 2">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="images/project2/p2-3.jpg" style="width:100%" onclick="currentSlide(10)" alt="Prototype">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <br>
+                    <p>In this project, I experienced six stages of ux design: Presenting questions, Researching to collect information, Sketching and making iterations, Low-fi mockup, High-fi mockup, Find ten users to try the mockup and Continue to make
+                        iterations.
+                    </p>
                 </div>
-               
+
                 <!--Project_Web development-->
                 <div class="container tabcontent" id="web-development">
                     <div id="p1" class="container">
                         <img class="image" src="images/webdevone.jpg" alt="image1">
 
                         <div class="middle">
-                            <div class="middletext"><a href="#webdevone" onclick="openTab(event, 'webdevone')" >View Detail</a></div>
+                            <div class="middletext"><a href="#webdevone" onclick="openTab(event, 'webdevone')">View Detail</a></div>
                         </div>
                     </div>
                     <p class="explain">Project name: Travel Planner App<br>Service: Front-end development, UI/UX design</p>
- 
+
                     <p>More project showcases will come soon.
                         <br>Welcome to check out more web development projects on my <a href="https://github.com/Nllai">Github </a> at this moment.
                         <br>Thanks!</div>
-                    </p>
-                    
-                    <div class="container tabcontent" id="webdevone">
-                        <a class="projecttitle">Travel Plan App</a>
-                        <video width="100%" height="100%" controls>
+                </p>
+
+                <div class="container tabcontent" id="webdevone">
+                    <a class="projecttitle">Travel Plan App</a>
+                    <video width="100%" height="100%" controls>
                             <source src="images/webdevone.mp4" type="video/mp4">
                           </video>
-                        <p>This is a project I made in Udacity Front-end developer Nanodegree program.
-                            <br>The purpose of this app is to see the weather of the place and date people want to visit.
-                            <br>The skills used in this app is HTML5, CSS and JS.
-                            <br>The app also covers:
-                            <ul>
-                                <li>API Intergration</li>
-                                <li>Webpack entry point/</li>
-                                <li>Webpack output and dist folder</li>
-                                <li>Webpack Loaders, Plugins and Mode</li>
-                                <li>Tools for convenient Webpack development</li>
-                                <li> Service Workers</li>
-                        </ul> 
-                        </p>
-                        </div>
+                    <p>This is a project I made in Udacity Front-end developer Nanodegree program.
+                        <br>The purpose of this app is to see the weather of the place and date people want to visit.
+                        <br>The skills used in this app is HTML5, CSS and JS.
+                        <br>The app also covers:
+                        <ul>
+                            <li>API Intergration</li>
+                            <li>Webpack entry point/</li>
+                            <li>Webpack output and dist folder</li>
+                            <li>Webpack Loaders, Plugins and Mode</li>
+                            <li>Tools for convenient Webpack development</li>
+                            <li> Service Workers</li>
+                        </ul>
+                    </p>
+                </div>
 
                 <!--Project_Illustration-->
                 <div class="container tabcontent" id="illustration">
-                    <div class="illustrationtext"><p>More project showcases will come soon.
-                        <br>Welcome to check out more illustration projects on my <a href="https://www.instagram.com/lanningz/?hl=en">Instagram </a> at this moment.
-                        <br>Thanks!</p></div>
+                    <div class="illustrationtext">
+                        <p>More project showcases will come soon.
+                            <br>Welcome to check out more illustration projects on my <a href="https://www.instagram.com/lanningz/?hl=en">Instagram </a> at this moment.
+                            <br>Thanks!</p>
+                    </div>
                     <div class="gallery">
                         <img id="pic1" class="gimage" src="images/art1.jpg" onclick="open_modal('pic1')" alt="Logo Design | Speedpenguin">
                         <p>Logo Design</p>
@@ -186,8 +291,10 @@
                     <div id="myModal" class="modal">
                         <span class="close">&times;</span>
                         <img class="modal-content" id="img01">
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
                         <div id="caption"></div>
-                      </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -198,9 +305,8 @@
             <h4 class="title">Contact</h4>
             <div class="centerblock">
                 <p>Have a project you'd like to discuss?</p>
-                <p>Send me an email to <a href="mailto:lanningz19@gmail.com"
-                    target:>lanningz19@gmail.com</a></p>
-                
+                <p>Send me an email to <a href="mailto:lanningz19@gmail.com" target:>lanningz19@gmail.com</a></p>
+
             </div>
         </section>
 
@@ -223,6 +329,7 @@
         </div>
         <script src="js/app.js"></script>
         <script src="js/modal.js"></script>
+        <script src="js/slideshow.js"></script>
 </body>
 
 </html>
