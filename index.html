@@ -1,324 +1,320 @@
 <!DOCTYPE HTML>
 <html>
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scalre=1.0" ; charset=utf-8>
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/slideshow.css">
-    <link rel="stylesheet" href="css/scrolldownbutton.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scalre=1.0" ; charset=utf-8>
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/slideshow.css">
+        <link rel="stylesheet" href="css/scrolldownbutton.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap" rel="stylesheet">
+    </head>
     <!-- ================ section 1 Head ================= -->
     <body>
-    <article>
-        <section class="home1" id="home">
-       <!--Navbar-->
-            <nav>
-                <img class="logo" src="images/logo.svg" alt="logo">
-                <ul class="nav-head">  
-                    <li><a onclick="jump('content')">Projects</a></li>
-                    <li><a onclick="jump('contact')">Contact</a></li>
-                </ul>
-            </nav>
-        
-            <div class="centerblock_home">
-                <h4 class="titlename" style="font-size:1.5vw;">Lanning Zhang
-                    <br>A Front-end Developer & UIUX Designer
-                <div class="social">
-                    <a href="https://ca.linkedin.com/in/lanning-zhang" class="brandico-linkedin"></a>
-                    <a href="https://github.com/Nllai" class="brandico-github"></a>
-                    <a href="https://www.instagram.com/lanningz/" class="brandico-instagram"></a>
-                    <a href="https://dribbble.com/lzdesign" class="zocial-dribbble"></a>
-                </div>
-                </h4>
-            </div>
-            <button type="button" class="scroll_down" id="scroll_down"></button>
-        </section>
-
-        <!-- ================ section 2 Projects ================= -->
-
-        <section class="home2" id="content">
-            <h4 class="title">Projects</h4>
-            <div class="bigcontainer">
-                <div class="projectnav">
-                    <a class="tablinks active" id="defaultOpen" onclick="openTab(event, 'ux-design')">UX design</a>
-                    <a class="tablinks" onclick="openTab(event, 'web-development')">Web development</a>
-                    <a class="tablinks" onclick="openTab(event, 'illustration')">Illustration</a>
-                </div>
-            <!--Project_UX design-->
-                    <div class="container tabcontent" id="ux-design">
-                        <div id="p1" class="container">
-                            <img class="image" src="images/project1.jpg" alt="image1">
-                                <div class="middle">
-                                    <div class="middletext"><a href="#projectone" onclick="openTab(event, 'projectone')">Detail</a></div>
-                                </div>
-                        </div>
-                            <p class="explain">Project name: Saas Company Dashboard<br>Service: UI/UX design</p>
-
-                        <div id="p2" class="container">
-                            <img class="image" src="images/project2.jpg" alt="image2">
-                                <div class="middle">
-                                    <div class="middletext"><a href="#projecttwo" onclick="openTab(event, 'projecttwo')">Detail</a></div>
-                                </div>
-                        </div>
-                    <p class="explain">Project name: Meal Plan App<br>Service: UI/UX design</p>
-                    </div>
-
-                <div class="container tabcontent" id="projectone">
-                    <a class="projecttitle">Sass Company Dashboard</a>
-                    <video width="100%" height="100%" controls>
-                        <source src="images/projectonevideo.mp4" type="video/mp4">
-                      </video>
-                    <p> <br><br>This is a website interface design for a Sass company's sotware. The main design is divided into four parts: Home, Dashboard, Paper organize and Personal profile. </p>
-
-                    <p> Home: Because of the professionalism and academic nature of this software, the main page settings are as concise as possible, highlighting the key points. </p>
-
-                    <p> Dashboard: Divided into two parts: a search results page and an operation page.
-                        <br><br>The search results will be clearly displayed in front of the user in a neat format, including the title and part of the text of the search results, so that users can get a general understanding of the essay content without
-                        clicking on the full essay.
-                        <br><br>The setting of the calculation page took the longest time in this project. After consultation with team members, customer trial and four rounds of modification, this simple and effective design was finally decided. In this
-                        dashboard, the user can check the content of the article while looking at the calculation results to enhance the understanding of essay.</p>
-
-                    <p> Paper organize: Because the titles and authors of academic essays are sometimes long and difficult to remember, this page is a warehouse that stores historical search records. Users can view the essays that have been read according
-                        to the five basic arrangement methods or they can organize the essays flexibly by naming some folders themselves.</p>
-
-                    <p> Profile: The personal information page also embodies the concise design idea. Users can modify basic information and view the subscription information of the software. </p>
-
-                    <p> Color and texture: The theme of the software uses only three colors of gray, white and purple, making the interface as simple and easy to remember as possible. The logo on the top right corner uses special fonts, which is convenient
-                        for users to remember and is distinguished from the basic style of the text.</p>
-
-                    <p> Workflow:</p>
-                    <br>
-                    <img class="workflow" src="images/p1-1.jpg" alt="workflow">
-                </div>
-                <div class="container tabcontent" id="projecttwo">
-                    <a class="projecttitle">Meal Plan App</a>
-                    <p>This is a project when I was taking UX design Nanodegree at Udacity. The theme of the project was selected by myself. </p>
-                    <br>
-                    <p>Details about this project:
-                        <br><a href="https://docs.google.com/presentation/d/1HrZF76eJlzXvgpyKqNamwmtQKLL-L-XlaiS6LFyv9FQ/edit?usp=sharingworkflow of each stage. For more information about this project, please check out a research report">Workflow ppt</a>
-                        <br><a href="https://drive.google.com/file/d/1CXy975Wr3sxVzmePRUuRW6blKp3HXxLa/view?usp=sharing">Research Report ppt</a> </p>
-
-                    <!-- Container for the image gallery -->
-                    <div class="container">
-
-                        <!-- Full-width images with number text -->
-                        <div class="mySlides">
-                            <div class="numbertext">1 / 6</div>
-                            <img src="images/project2/p2-1.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">2 / 6</div>
-                            <img src="images/project2/p2-2.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">3 / 6</div>
-                            <img src="images/project2/p2-3.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">4 / 6</div>
-                            <img src="images/project2/p2-4.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">5 / 6</div>
-                            <img src="images/project2/p2-5.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">6 / 6</div>
-                            <img src="images/project2/p2-6.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">6 / 6</div>
-                            <img src="images/project2/p2-7.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">6 / 6</div>
-                            <img src="images/project2/p2-8.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">6 / 6</div>
-                            <img src="images/project2/p2-9.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">6 / 6</div>
-                            <img src="images/project2/p2-10.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">6 / 6</div>
-                            <img src="images/project2/p2-11.jpg" style="width:100%">
-                        </div>
-
-
-                        <!-- Next and previous buttons -->
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-                        <!-- Image text -->
-                        <div class="caption-container">
-                            <p id="slideshow-caption"></p>
-                        </div>
-
-                        <!-- Thumbnail images -->
-                        <div class="row">
-                            <div class="column">
-                                <img class="demo cursor" src="images/project2/p2-1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Final Look: Page1-3">
-                            </div>
-                            <div class="column">
-                                <img class="demo cursor" src="images/project2/p2-2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Final Look: Page4-5">
-                            </div>
-                            <div class="column">
-                                <img class="demo cursor" src="images/project2/p2-3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Research Synthesis">
-                            </div>
-                            <div class="column">
-                                <img class="demo cursor" src="images/project2/p2-4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Sketch">
-                            </div>
-                            <div class="column">
-                                <img class="demo cursor" src="images/project2/p2-5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Low-Fidelity Mockup | Iteration 1">
-                            </div>
-                            <div class="column">
-                                <img class="demo cursor" src="images/project2/p2-6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Iteration 1 | Usability Study">
-                            </div>
-                            <div class="column">
-                                <img class="demo cursor" src="images/project2/p2-7.jpg" style="width:100%" onclick="currentSlide(7)" alt="Style Guide: 01-04">
-                            </div>
-                            <div class="column">
-                                <img class="demo cursor" src="images/project2/p2-8.jpg" style="width:100%" onclick="currentSlide(8)" alt="Style Guide: 05-06">
-                            </div>
-                            <div class="column">
-                                <img class="demo cursor" src="images/project2/p2-9.jpg" style="width:100%" onclick="currentSlide(9)" alt="High-Fidelity Mockup| Iteration 2">
-                            </div>
-                            <div class="column">
-                                <img class="demo cursor" src="images/project2/p2-10.jpg" style="width:100%" onclick="currentSlide(10)" alt="High-Fidelity Mockup| Iteration 2">
-                            </div>
-                            <div class="column">
-                                <img class="demo cursor" src="images/project2/p2-11.jpg" style="width:100%" onclick="currentSlide(11)" alt="Prototype">
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-
-                    <br>
-                    <p>In this project, I experienced six stages of ux design: Presenting questions, Researching to collect information, Sketching and making iterations, Low-fi mockup, High-fi mockup, Find ten users to try the mockup and Continue to make
-                        iterations.
-                    </p>
-                </div>
-
-                <!--Project_Web development-->
-                <div class="container tabcontent" id="web-development">
-                  
-                        <div class="webdev">
-                            <a href="https://nllai.github.io/Tribute-Page-practice/" data-title="Travel Planner App">
-                                <img src="images/webdevone.jpg" alt="TravelPlannerApp">
-                            </a>
-                        
-                        <div class="webdev">
-                            <a href="https://nllai.github.io/Tribute-Page-practice/" data-title="Travel Planner App">
-                                <img src="images/webdevone.jpg" alt="TravelPlannerApp">
-                            </a>
-                        
-                        <div class="webdev">
-                            <a href="https://nllai.github.io/Tribute-Page-practice/" data-title="Travel Planner App">
-                                    <img src="images/webdevone.jpg" alt="TravelPlannerApp">
-                            </a>
-                        
-                        <div class="webdev">
-                            <a href="https://nllai.github.io/Tribute-Page-practice/" data-title="Travel Planner App">
-                                    <img src="images/webdevone.jpg" alt="TravelPlannerApp">
-                            </a>
-                               
-                               
-                <!--Project_Illustration-->
-                <div class="container tabcontent" id="illustration">
+        <article>
+            <section class="home1" id="home">
+        <!--Navbar-->
+                <nav>
+                    <img class="logo" src="images/logo.svg" alt="logo">
+                    <ul class="nav-head">  
+                        <li><a onclick="jump('content')">Projects</a></li>
+                        <li><a onclick="jump('contact')">Contact</a></li>
+                    </ul>
+                </nav>
+            
+                <div class="centerblock_home">
+                    <h4 class="titlename" style="font-size:1.5vw;">Lanning Zhang
+                        <br>A Front-end Developer & UIUX Designer
                     <div class="social">
+                        <a href="https://ca.linkedin.com/in/lanning-zhang" class="brandico-linkedin"></a>
+                        <a href="https://github.com/Nllai" class="brandico-github"></a>
                         <a href="https://www.instagram.com/lanningz/" class="brandico-instagram"></a>
                         <a href="https://dribbble.com/lzdesign" class="zocial-dribbble"></a>
                     </div>
-                    <div class="gallery">
-                        <img id="pic1" class="gimage" src="images/art1.jpg" onclick="open_modal('pic1')" alt="Logo Design | Speedpenguin">
-                        <p>Logo Design</p>
-                    </div>
-                    <div class="gallery">
-                        <img id="pic2" class="gimage" src="images/art2.jpg" onclick="open_modal('pic2')" alt="Logo Design | Vancouver Lookout">
-                        <p>Logo Design</p>
-                    </div>
-                    <div class="gallery">
-                        <img id="pic3" class="gimage" src="images/art3.jpg" onclick="open_modal('pic3')" alt="Logo Design | Fruit Heavens">
-                        <p>Logo Design</p>
-                    </div>
-                    <div class="gallery">
-                        <img id="pic4" class="gimage" src="images/art4.jpg" onclick="open_modal('pic4')" alt="Poster Design | Train Station">
-                        <p>Poster Design</p>
-                    </div>
-                    <div class="gallery">
-                        <img id="pic5" class="gimage" src="images/art5.jpg" onclick="open_modal('pic5')" alt="Vector Art | Surfing girl">
-                        <p>Vector Art</p>
-                    </div>
-                    <div class="gallery">
-                        <img id="pic6" class="gimage" src="images/art6.jpg" onclick="open_modal('pic6')" alt="Illustration | Girl with earring_1">
-                        <p>Illustration</p>
-                    </div>
-                    <div class="gallery">
-                        <img id="pic7" class="gimage" src="images/art7.jpg" onclick="open_modal('pic7')" alt="Illustration | Girl with earring_2">
-                        <p>Illustration</p>
-                    </div>
-                    <div class="gallery">
-                        <img id="pic8" class="gimage" src="images/art8.jpg" onclick="open_modal('pic8')" alt="Illustration | Olivia">
-                        <p>Illustration</p>
-                    </div>
-                    <div class="gallery">
-                        <img id="pic9" class="gimage" src="images/art9.jpg" onclick="open_modal('pic9')" alt="Logo Design | Forcast X">
-                        <p>Logo Design</p>
-                    </div>
-                    <div id="myModal" class="modal">
-                        <span class="close">&times;</span>
-                        <img class="modal-content" id="img01">
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                        <div id="caption"></div>
-                    </div>
+                    </h4>
                 </div>
+                <button type="button" class="scroll_down" id="scroll_down"></button>
+            </section>
+
+            <!-- ================ section 2 Projects ================= -->
+
+            <section class="home2" id="content">
+                <h4 class="title">Projects</h4>
+                <div class="bigcontainer">
+                    <div class="projectnav">
+                        <a class="tablinks active" id="defaultOpen" onclick="openTab(event, 'ux-design')">UX design</a>
+                        <a class="tablinks" onclick="openTab(event, 'web-development')">Web development</a>
+                        <a class="tablinks" onclick="openTab(event, 'illustration')">Illustration</a>
+                    </div>
+                <!--Project_UX design-->
+                        <div class="container tabcontent" id="ux-design">
+                            <div id="p1" class="container">
+                                <img class="image" src="images/project1.jpg" alt="image1">
+                                    <div class="middle">
+                                        <div class="middletext"><a href="#projectone" onclick="openTab(event, 'projectone')">Detail</a></div>
+                                    </div>
+                            </div>
+                                <p class="explain">Project name: Saas Company Dashboard<br>Service: UI/UX design</p>
+
+                            <div id="p2" class="container">
+                                <img class="image" src="images/project2.jpg" alt="image2">
+                                    <div class="middle">
+                                        <div class="middletext"><a href="#projecttwo" onclick="openTab(event, 'projecttwo')">Detail</a></div>
+                                    </div>
+                            </div>
+                        <p class="explain">Project name: Meal Plan App<br>Service: UI/UX design</p>
+                        </div>
+                    <!--UX Project 1-->
+                            <div class="container tabcontent" id="projectone">
+                                <a class="projecttitle">Sass Company Dashboard</a>
+                                <video width="100%" height="100%" controls>
+                                <source src="images/projectonevideo.mp4" type="video/mp4">
+                                </video>
+                                <p> <br><br>This is a website interface design for a Sass company's sotware. The main design is divided into four parts: Home, Dashboard, Paper organize and Personal profile. </p>
+
+                                <p> Home: Because of the professionalism and academic nature of this software, the main page settings are as concise as possible, highlighting the key points. </p>
+
+                                <p> Dashboard: Divided into two parts: a search results page and an operation page.
+                                <br><br>The search results will be clearly displayed in front of the user in a neat format, including the title and part of the text of the search results, so that users can get a general understanding of the essay content without
+                                clicking on the full essay.
+                                <br><br>The setting of the calculation page took the longest time in this project. After consultation with team members, customer trial and four rounds of modification, this simple and effective design was finally decided. In this
+                                dashboard, the user can check the content of the article while looking at the calculation results to enhance the understanding of essay.</p>
+
+                                <p> Paper organize: Because the titles and authors of academic essays are sometimes long and difficult to remember, this page is a warehouse that stores historical search records. Users can view the essays that have been read according
+                                to the five basic arrangement methods or they can organize the essays flexibly by naming some folders themselves.</p>
+
+                                <p> Profile: The personal information page also embodies the concise design idea. Users can modify basic information and view the subscription information of the software. </p>
+
+                                <p> Color and texture: The theme of the software uses only three colors of gray, white and purple, making the interface as simple and easy to remember as possible. The logo on the top right corner uses special fonts, which is convenient
+                                for users to remember and is distinguished from the basic style of the text.</p>
+
+                                <p> Workflow:</p>
+                                <br><img class="workflow" src="images/p1-1.jpg" alt="workflow">
+                            </div>
+                    <!--UX Project 2-->
+                            <div class="container tabcontent" id="projecttwo">
+                                <a class="projecttitle">Meal Plan App</a>
+                                <p>This is a project when I was taking UX design Nanodegree at Udacity. The theme of the project was selected by myself. </p>
+                                <br><p>Details about this project:
+                                <br><a href="https://docs.google.com/presentation/d/1HrZF76eJlzXvgpyKqNamwmtQKLL-L-XlaiS6LFyv9FQ/edit?usp=sharingworkflow of each stage. For more information about this project, please check out a research report">Workflow ppt</a>
+                                <br><a href="https://drive.google.com/file/d/1CXy975Wr3sxVzmePRUuRW6blKp3HXxLa/view?usp=sharing">Research Report ppt</a> </p>
+
+                                <!-- Container for the image gallery -->
+                                <div class="container">
+
+                                <!-- Full-width images with number text -->
+                                    <div class="mySlides">
+                                        <div class="numbertext">1 / 11</div>
+                                        <img src="images/project2/p2-1.jpg" style="width:100%">
+                                    </div>
+
+                                    <div class="mySlides">
+                                        <div class="numbertext">2 / 11</div>
+                                        <img src="images/project2/p2-2.jpg" style="width:100%">
+                                    </div>
+
+                                    <div class="mySlides">
+                                        <div class="numbertext">3 / 11</div>
+                                        <img src="images/project2/p2-3.jpg" style="width:100%">
+                                    </div>
+
+                                    <div class="mySlides">
+                                        <div class="numbertext">4 / 11</div>
+                                        <img src="images/project2/p2-4.jpg" style="width:100%">
+                                    </div>
+
+                                    <div class="mySlides">
+                                        <div class="numbertext">5 / 11</div>
+                                        <img src="images/project2/p2-5.jpg" style="width:100%">
+                                    </div>
+
+                                    <div class="mySlides">
+                                        <div class="numbertext">6 / 11</div>
+                                        <img src="images/project2/p2-6.jpg" style="width:100%">
+                                    </div>
+
+                                    <div class="mySlides">
+                                        <div class="numbertext">7 / 11</div>
+                                        <img src="images/project2/p2-7.jpg" style="width:100%">
+                                    </div>
+
+                                    <div class="mySlides">
+                                        <div class="numbertext">8 / 11</div>
+                                        <img src="images/project2/p2-8.jpg" style="width:100%">
+                                    </div>
+
+                                    <div class="mySlides">
+                                        <div class="numbertext">9 / 11</div>
+                                        <img src="images/project2/p2-9.jpg" style="width:100%">
+                                    </div>
+
+                                    <div class="mySlides">
+                                        <div class="numbertext">10 / 11</div>
+                                        <img src="images/project2/p2-10.jpg" style="width:100%">
+                                    </div>
+
+                                    <div class="mySlides">
+                                        <div class="numbertext">11 / 11</div>
+                                        <img src="images/project2/p2-11.jpg" style="width:100%">
+                                    </div>
+
+                                <!-- Next and previous buttons -->
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                                <!-- Image text -->
+                                    <div class="caption-container">
+                                        <p id="slideshow-caption"></p>
+                                    </div>
+
+                                <!-- Thumbnail images -->
+                                    <div class="row">
+                                        <div class="column">
+                                            <img class="demo cursor" src="images/project2/p2-1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Final Look: Page1-3">
+                                        </div>
+                                        <div class="column">
+                                            <img class="demo cursor" src="images/project2/p2-2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Final Look: Page4-5">
+                                        </div>
+                                        <div class="column">
+                                            <img class="demo cursor" src="images/project2/p2-3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Research Synthesis">
+                                        </div>
+                                        <div class="column">
+                                            <img class="demo cursor" src="images/project2/p2-4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Sketch">
+                                        </div>
+                                        <div class="column">
+                                            <img class="demo cursor" src="images/project2/p2-5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Low-Fidelity Mockup | Iteration 1">
+                                        </div>
+                                        <div class="column">
+                                            <img class="demo cursor" src="images/project2/p2-6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Iteration 1 | Usability Study">
+                                        </div>
+                                        <div class="column">
+                                            <img class="demo cursor" src="images/project2/p2-7.jpg" style="width:100%" onclick="currentSlide(7)" alt="Style Guide: 01-04">
+                                        </div>
+                                        <div class="column">
+                                            <img class="demo cursor" src="images/project2/p2-8.jpg" style="width:100%" onclick="currentSlide(8)" alt="Style Guide: 05-06">
+                                        </div>
+                                        <div class="column">
+                                            <img class="demo cursor" src="images/project2/p2-9.jpg" style="width:100%" onclick="currentSlide(9)" alt="High-Fidelity Mockup| Iteration 2">
+                                        </div>
+                                        <div class="column">
+                                            <img class="demo cursor" src="images/project2/p2-10.jpg" style="width:100%" onclick="currentSlide(10)" alt="High-Fidelity Mockup| Iteration 2">
+                                        </div>
+                                        <div class="column">
+                                            <img class="demo cursor" src="images/project2/p2-11.jpg" style="width:100%" onclick="currentSlide(11)" alt="Prototype">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <br>
+                                <p>In this project, I experienced six stages of ux design: Presenting questions, Researching to collect information, Sketching and making iterations, Low-fi mockup, High-fi mockup, Find ten users to try the mockup and Continue to make
+                                    iterations.</p>
+                            </div>
+
+                <!--Project_Web development-->
+                        <div class="container tabcontent" id="web-development">
+                            <div class="webdev">
+                                <a href="https://nllai.github.io/Tribute-Page-practice/" data-title="Travel Planner App">
+                                    <img src="images/webdevone.jpg" alt="TravelPlannerApp">
+                                </a>
+                            </div>
+                            
+                            <div class="webdev">
+                                <a href="https://nllai.github.io/Tribute-Page-practice/" data-title="Travel Planner App">
+                                    <img src="images/webdevone.jpg" alt="TravelPlannerApp">
+                                </a>
+                            </div>
+                            
+                            <div class="webdev">
+                                <a href="https://nllai.github.io/Tribute-Page-practice/" data-title="Travel Planner App">
+                                    <img src="images/webdevone.jpg" alt="TravelPlannerApp">
+                                </a>
+                            </div>
+                            
+                            <div class="webdev">
+                                <a href="https://nllai.github.io/Tribute-Page-practice/" data-title="Travel Planner App">
+                                    <img src="images/webdevone.jpg" alt="TravelPlannerApp">
+                                </a>
+                            </div>
+                        </div>
+                                
+                                
+                <!--Project_Illustration-->
+                        <div class="container tabcontent" id="illustration">
+                            <div class="social">
+                                <a href="https://www.instagram.com/lanningz/" class="brandico-instagram"></a>
+                                <a href="https://dribbble.com/lzdesign" class="zocial-dribbble"></a>
+                            </div>
+
+                            <div class="gallery">
+                                <img id="pic1" class="gimage" src="images/art1.jpg" onclick="open_modal('pic1')" alt="Logo Design | Speedpenguin">
+                                <p>Logo Design</p>
+                            </div>
+                            <div class="gallery">
+                                <img id="pic2" class="gimage" src="images/art2.jpg" onclick="open_modal('pic2')" alt="Logo Design | Vancouver Lookout">
+                                <p>Logo Design</p>
+                            </div>
+                            <div class="gallery">
+                                <img id="pic3" class="gimage" src="images/art3.jpg" onclick="open_modal('pic3')" alt="Logo Design | Fruit Heavens">
+                                <p>Logo Design</p>
+                            </div>
+                            <div class="gallery">
+                                <img id="pic4" class="gimage" src="images/art4.jpg" onclick="open_modal('pic4')" alt="Poster Design | Train Station">
+                                <p>Poster Design</p>
+                            </div>
+                            <div class="gallery">
+                                <img id="pic5" class="gimage" src="images/art5.jpg" onclick="open_modal('pic5')" alt="Vector Art | Surfing girl">
+                                <p>Vector Art</p>
+                            </div>
+                            <div class="gallery">
+                                <img id="pic6" class="gimage" src="images/art6.jpg" onclick="open_modal('pic6')" alt="Illustration | Girl with earring_1">
+                                <p>Illustration</p>
+                            </div>
+                            <div class="gallery">
+                                <img id="pic7" class="gimage" src="images/art7.jpg" onclick="open_modal('pic7')" alt="Illustration | Girl with earring_2">
+                                <p>Illustration</p>
+                            </div>
+                            <div class="gallery">
+                                <img id="pic8" class="gimage" src="images/art8.jpg" onclick="open_modal('pic8')" alt="Illustration | Olivia">
+                                <p>Illustration</p>
+                            </div>
+                            <div class="gallery">
+                                <img id="pic9" class="gimage" src="images/art9.jpg" onclick="open_modal('pic9')" alt="Logo Design | Forcast X">
+                                <p>Logo Design</p>
+                            </div>
+                        
+                            <div id="myModal" class="modal">
+                                <span class="close">&times;</span>
+                                <img class="modal-content" id="img01">
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                <div id="caption"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            <!-- ================ section 3 Contact ================= -->
+
+            <section class="home3" id="contact">
+                <h4 class="title">Contact</h4>
+                    <div class="centerblock">
+                        <img class="contactpic" src="images/me.jpg" alt="me">
+                        <p>Email · LANNINGZ19@GMAIL.COM</p>
+                    </div>
+            </section>
+
+            <!-- ================ Footer ================= -->
+            
+            <footer>
+                <div class="copyright">
+                    <p> Copyright © 2020 Made by Lanning Zhang</p>
+                </div>
+            </footer>
             </div>
-        </section>
-
-        <!-- ================ section 3 Contact ================= -->
-
-        <section class="home3" id="contact">
-            <h4 class="title">Contact</h4>
-            <div class="centerblock">
-                <img class="contactpic" src="images/me.jpg" alt="me">
-                <p>Email · LANNINGZ19@GMAIL.COM</a></p>
-
-            </div>
-        </section>
-
-
-
-        <!-- ================ Footer ================= -->
-
-
-        <footer>
-            <div class="copyright">
-                <p> Copyright © 2020 Made by Lanning Zhang</p>
-            </div>
-        </footer>
-        </div>
-        <script src="js/app.js"></script>
-        <script src="js/modal.js"></script>
-        <script src="js/slideshow.js"></script>
-        <script src="js/scrolldownbutton.js"></script>
-</body>
-</article>
+            
+            <script src="js/app.js"></script>
+            <script src="js/modal.js"></script>
+            <script src="js/slideshow.js"></script>
+            <script src="js/scrolldownbutton.js"></script>
+        </article>
+    </body>
 </html>
