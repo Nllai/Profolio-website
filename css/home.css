@@ -16,22 +16,18 @@ body{
 	margin:0 auto;
 }
 
-header{
-	height:0;
+img.logo {
 	left:0;
 	float:left;
-}
-img.logo {
 	height: 15vh;
 	margin: 1vh auto 1vh auto;
 	width: 5vw;
 	cursor: pointer;
 	text-shadow: 0px 9px 250px -15px red;
   }
-  header:hover img.logo {
-	fill: #FF6347;
-	-webkit-filter: drop-shadow(3px 3px 3px #ddd);
-	filter: drop-shadow(3px 3px 3px #ddd);
+  img.logo:hover  {
+	-webkit-filter: drop-shadow(3px 3px 3px #FF6347);
+	filter: drop-shadow(3px 3px 3px #FF6347);
   }
 
 .checkbtn{
