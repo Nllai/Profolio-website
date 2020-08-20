@@ -5,49 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scalre=1.0" ; charset=utf-8>
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/slideshow.css">
-    <link rel="stylesheet" href="https://weloveiconfonts.com/api/?family=zocial" />
+    <link rel="stylesheet" href="css/scrolldownbutton.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap" rel="stylesheet">
 </head>
-
-<body>
-
-
-
-
-
-
     <!-- ================ section 1 ================= -->
-
+    <body>
     <article>
         <section class="home1" id="home">
             <header>
                 <img class="logo" src="images/logo.svg" alt="logo">
+            
             </header>
-
             <!--Navbar-->
-
             <nav>
-                <ul class="nav-head">
-                    <li><a onclick="jump('home')">Home</a></li>
+                <ul class="nav-head">  
                     <li><a onclick="jump('content')">Projects</a></li>
                     <li><a onclick="jump('contact')">Contact</a></li>
                 </ul>
             </nav>
+        
             <div class="centerblock_home">
-                <h5 class="title">
-                    <img class="pic" src="images/pic.jpg" alt="image" ;>
-                    <p class="text">Welcome! This is Lanning.
-                        <br><br>I am a UX designer and Front-end developer based in British Columbia.
-
-                    </p>
-                </h5>
+                <h4 class="titlename" style="font-size:1.5vw;">Lanning Zhang
+                    <br>A Front-end Developer & UIUX Designer
+                    <div class="social">
+                        <a href="https://ca.linkedin.com/in/lanning-zhang" class="brandico-linkedin"></a>
+                        <a href="https://github.com/Nllai" class="brandico-github"></a>
+                        <a href="https://www.instagram.com/lanningz/" class="brandico-instagram"></a>
+                        <a href="https://dribbble.com/lzdesign" class="zocial-dribbble"></a>
+                    </div>
+                </h4>
             </div>
+
+            <button type="button" class="scroll_down" id="scroll_down"></button>
+
         </section>
+   
 
         <!-- ================ section 2 Projects ================= -->
 
         <section class="home2" id="content">
-            <h4 class="title">Recent Projects</h4>
+            <h4 class="title">Projects</h4>
             <div class="bigcontainer">
                 <div class="projectnav">
                     <a class="tablinks active" id="defaultOpen" onclick="openTab(event, 'ux-design')">UX design</a>
@@ -229,46 +227,33 @@
 
                 <!--Project_Web development-->
                 <div class="container tabcontent" id="web-development">
-                    <div id="p1" class="container">
-                        <img class="image" src="images/webdevone.jpg" alt="image1">
-
-                        <div class="middle">
-                            <div class="middletext"><a href="#webdevone" onclick="openTab(event, 'webdevone')">View Detail</a></div>
-                        </div>
-                    </div>
-                    <p class="explain">Project name: Travel Planner App<br>Service: Front-end development, UI/UX design</p>
-
-                    <p>More project showcases will come soon.
-                        <br>Welcome to check out more web development projects on my <a href="https://github.com/Nllai">Github </a> at this moment.
-                        <br>Thanks!</div>
-                </p>
-
-                <div class="container tabcontent" id="webdevone">
-                    <a class="projecttitle">Travel Plan App</a>
-                    <video width="100%" height="100%" controls>
-                            <source src="images/webdevone.mp4" type="video/mp4">
-                          </video>
-                    <p>This is a project I made in Udacity Front-end developer Nanodegree program.
-                        <br>The purpose of this app is to see the weather of the place and date people want to visit.
-                        <br>The skills used in this app is HTML5, CSS and JS.
-                        <br>The app also covers:
-                        <ul>
-                            <li>API Intergration</li>
-                            <li>Webpack entry point/</li>
-                            <li>Webpack output and dist folder</li>
-                            <li>Webpack Loaders, Plugins and Mode</li>
-                            <li>Tools for convenient Webpack development</li>
-                            <li> Service Workers</li>
-                        </ul>
-                    </p>
-                </div>
-
+                  
+                        <div class="webdev">
+                            <a href="https://nllai.github.io/Tribute-Page-practice/" data-title="Travel Planner App">
+                                <img src="images/webdevone.jpg" alt="TravelPlannerApp">
+                            </a>
+                        
+                        <div class="webdev">
+                            <a href="https://nllai.github.io/Tribute-Page-practice/" data-title="Travel Planner App">
+                                <img src="images/webdevone.jpg" alt="TravelPlannerApp">
+                            </a>
+                        
+                        <div class="webdev">
+                            <a href="https://nllai.github.io/Tribute-Page-practice/" data-title="Travel Planner App">
+                                    <img src="images/webdevone.jpg" alt="TravelPlannerApp">
+                            </a>
+                        
+                        <div class="webdev">
+                            <a href="https://nllai.github.io/Tribute-Page-practice/" data-title="Travel Planner App">
+                                    <img src="images/webdevone.jpg" alt="TravelPlannerApp">
+                            </a>
+                               
+                               
                 <!--Project_Illustration-->
                 <div class="container tabcontent" id="illustration">
-                    <div class="illustrationtext">
-                        <p>More project showcases will come soon.
-                            <br>Welcome to check out more illustration projects on my <a href="https://www.instagram.com/lanningz/?hl=en">Instagram </a> at this moment.
-                            <br>Thanks!</p>
+                    <div class="social">
+                        <a href="https://www.instagram.com/lanningz/" class="brandico-instagram"></a>
+                        <a href="https://dribbble.com/lzdesign" class="zocial-dribbble"></a>
                     </div>
                     <div class="gallery">
                         <img id="pic1" class="gimage" src="images/art1.jpg" onclick="open_modal('pic1')" alt="Logo Design | Speedpenguin">
@@ -322,8 +307,8 @@
         <section class="home3" id="contact">
             <h4 class="title">Contact</h4>
             <div class="centerblock">
-                <p>Have a project you'd like to discuss?</p>
-                <p>Send me an email to <a href="mailto:lanningz19@gmail.com" target:>lanningz19@gmail.com</a></p>
+                <img class="contactpic" src="images/me.jpg" alt="me">
+                <p>Email · LANNINGZ19@GMAIL.COM</a></p>
 
             </div>
         </section>
@@ -334,20 +319,15 @@
 
 
         <footer>
-            <div class="social">
-                <br><br> <a href="https://github.com/Nllai" class="zocial-github">Github</a>
-                <a href="https://www.instagram.com/lanningz/" class="zocial-instagram">Instagram</a>
-                <a href="https://dribbble.com/lzdesign" class="zocial-dribbble">Dribbble</a>
-                <a href="https://ca.linkedin.com/in/lanning-zhang" class="zocial-linkedin">Linkedin</a>
-            </div>
             <div class="copyright">
-                <p> Copyright © 2020 Made by Lanning Zhang.</p>
+                <p> Copyright © 2020 Made by Lanning Zhang</p>
             </div>
         </footer>
         </div>
         <script src="js/app.js"></script>
         <script src="js/modal.js"></script>
         <script src="js/slideshow.js"></script>
+        <script src="js/scrolldownbutton.js"></script>
 </body>
-
+</article>
 </html>

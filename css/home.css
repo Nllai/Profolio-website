@@ -1,23 +1,20 @@
 
-
+@import url(https://weloveiconfonts.com/api/?family=brandico);
+@import url(https://weloveiconfonts.com/api/?family=zocial);
 article{
-	margin: 0;
 	border-bottom: 1px solid #ddd;
-	color: #696969;
-	font-family: "Montserrat",Sans-serif;
-	text-align: center;
-	-webkit-font-smoothing: antialiased 
+	color: #D9D9D9;
+	font-family: 'Inconsolata', monospace;
+	-webkit-font-smoothing: antialiased; 
+	background-image:url(../images/top.gif);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	background-position: center center;
 }
-
-
 body{
 	margin:0 auto;
 }
-#background{
-	background: #F5F5F5;
-}
-
-
 
 header{
 	height:0;
@@ -27,7 +24,7 @@ header{
 img.logo {
 	height: 15vh;
 	margin: 1vh auto 1vh auto;
-	width: 15vw;
+	width: 5vw;
 	cursor: pointer;
 	text-shadow: 0px 9px 250px -15px red;
   }
@@ -49,6 +46,7 @@ img.logo {
 
 
   .nav-head {
+
 	padding: 0;
 	list-style: none;
 	float: right;
@@ -67,25 +65,11 @@ img.logo {
 .nav-head li a{
 	display: block;
 	padding: 8px 25px;
-	color: #333;
+	color: grey;
 	text-decoration: none;
 }
 .nav-head li a:hover{
 	color: #FF6347;
-}
-.nav-head li   .nav-head.dropdown{
-	min-width: 100%; /* Set width of the dropdown */
-	background: #F0F0F0;
-	display: none;
-	position: absolute;
-	z-index: 999;
-	left: 0;
-}
-.nav-head li:hover   .nav-head.dropdown{
-	display: block;	/* Display the dropdown */
-}
-.nav-head li   .nav-head.dropdown li{
-	display: block;
 }
 
 .text {
@@ -106,8 +90,8 @@ img.logo {
 .image{
 	opacity:1;
 	display: block;
-	max-width: 100%;
-	max-height: 60%;
+	max-width: 80%;
+	max-height: 100%;
 	margin: auto;
 	transition: .5s ease;
 	backface-visibility: hidden;
@@ -155,7 +139,6 @@ img.logo {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-
 	flex-wrap: wrap;
 	margin: auto;
 }
@@ -234,45 +217,100 @@ opacity: 1;
 .centerblock_home {
 	display: flex;
 	width: 100%;
-	margin: 0;
-	height: 80vh;
-
-}
-.centerblock_text{
+	height: 90vh;
+	
 	text-align: left;
 
 }
-.home1 {
-	background-image:linear-gradient(90deg,#c2e59c,#64b3f4);	
+.centerblock_home a{
+	text-align: left;
 }
-
+.home1{
+	margin:0 0 0 5vw;
+	background-color: transparent;
+}
+.home2 {
+  margin: 5vw;
+  background-color: #A1A3A6;
+  opacity: 1;
+}
+.titlename{
+	text-align: left;
+	padding-top: 8vh;
+	margin-bottom:0;
+}
 .title{
+	
 	padding-top: 10vh;
 	font-family: "Montserrat",Sans-serif;
-	font-size: 5vh;
-	text-align: center;
+	font-size: 2vh;
+	text-align: left;
 	color: #696969;
-	margin-left: auto;
+	margin-left: 20vw;
 	margin-right: auto;
 	margin-top: 0;
 }
 
-.centerblock_home div form div div {
-	display: inline-block;
-
 }
 
-.home2{
-	background-color: #f5f5f5;
+.webdev{
+}
+.webdev a{
+	position:relative;
+	display: flex;
+	flex-direction: row;
+	flex: 25%;
+	justify-content: space-evenly;
+	max-width:25vw;
+	max-height:50vh;
+  }
+  
+  .webdev a img {
+	height:100%; 
+	width:100%;
+	object-fit:cover;}
+	.webdev a:before, a:after{
+	width:100%;
+	position:absolute;
+	opacity:0;
+	transition:opacity 0.3s ease;
+  
+  }
+  
+  .webdev a:before{
+	content:'';
+	height:100%;
+	background:rgba(122,157,83,0.8);
+  }
+  
+  .webdev a:after{
+	content:attr(data-title);
+	font-size:24px;
+	top:calc(50% - 0.5em);
+	left:0;
+	text-align:center;
+	color:#fff;
+	text-transform:uppercase;
+  }
+  
+  .webdev a:hover:before, a:hover:after{
+	opacity:1;
+  }
+
+/** home3 contact form**/
+
+.home3{
+	background-color: black;
+	opacity:0.8;
 	padding-bottom: 10vh;
+	margin: 5vw;
 }
 .explain{
 	width: 44vw;
 	text-align: left;
 	margin-bottom: 10vh;
+	color:black;
 }
-
-
 
 .container {
 	position: relative;
@@ -370,37 +408,60 @@ opacity: 1;
 
   
 footer{
-	background-image:linear-gradient(90deg,#c2e59c, #64b3f4);
+	background-color:black;
 }
 
 /*4 Zocial icons*/
 
 [class*="zocial-"]:before {
-	color: black;
+	color: grey;
 	display: inline-block;
 	font-family: 'zocial', sans-serif;
-	text-shadow: 3px 3px 3px #aaa;
 	width: 2em;
+	text-align: left;
   }
+  [class*="brandico-"]:before {
+	font-family: 'brandico', sans-serif;
+	color: grey;
+	display: inline-block;
+	width: 2em;
+	text-align: left;
+  }
+  }
+  [class*="zocial-"]:hover {
+	color: #FF6347;
+  }
+
   
 .social{
-	text-align: center;
+	text-align: left;
+	padding-top:5vh;
 }
 .social a {
   margin: 0 1em 0 0;
-  text-align: center;
+ 
+}
+.social a:hover{
+	color: #FF6347;
 }
 
 .social a:last-of-type {
   margin: 0;
-
   }
+
+.contactpic{
+	max-width: 20vw;
+	opacity:1;
+}
+  
 .copyright{
 	text-align: center;
 	color: #696969;
 	font-family: Montserrat,Sans-serif;
+	font-size: 1vw;
 	padding-top: 10px;
-	padding-bottom: 3vh;
+	padding-bottom: 3vh；
+
 }
 
 

@@ -1,0 +1,105 @@
+DRAFT
+.home1 {
+	background-image:linear-gradient(90deg,#c2e59c,#64b3f4);	
+}
+<!-- ================ section 2 Intro ================= -->
+<secton class="home2" id="intro"
+<img class="pic" src="images/pic.jpg" alt="image";>
+</secton>
+class="text"
+
+<div class="centerblock_home">
+<h5 class="title">
+    <p>Lanning Zhang
+        <br><br>A Front-end developer & UIUX Designer
+    </p>
+</h5>
+</div>
+</section>
+
+
+.centerblock_home div form div div {
+    display: inline-block;
+    
+    <p>EMAIL <a href="mailto:lanningz19@gmail.com" target:>LANNINGZ19@GMAIL.COM</a></p>
+
+    <div class="illustrationtext">
+                        <p>More project showcases will come soon.
+                            <br>Welcome to check out more illustration projects on my <a href="https://www.instagram.com/lanningz/?hl=en">Instagram </a> at this moment.
+                            <br>Thanks!</p>
+                    </div>
+
+ <li><a onclick="jump('home')">Home</a></li>
+
+
+
+.image{
+	opacity:1;
+	display: block;
+	max-width: 80%;
+	max-height: 100%;
+	margin: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	
+}
+
+
+<!--Project_Web development-->
+                <div class="container tabcontent" id="web-development">
+                    <div id="p1" class="container">
+                        <img class="image" src="images/webdevone.jpg" alt="image1">
+
+                        <div class="middle">
+                            <div class="middletext"><a href="#webdevone" onclick="openTab(event, 'webdevone')">View Detail</a></div>
+                        </div>
+                    </div>
+                    <p class="explain">Project name: Travel Planner App<br>Service: Front-end development, UI/UX design</p>
+
+                    <div id="p1" class="container">
+                        <img class="image" src="images/webdevone.jpg" alt="image1">
+
+                        <div class="middle">
+                            <div class="middletext"><a href="https://nllai.github.io/Tribute-Page-practice/ ">View Detail</a></div>
+                        </div>
+                    </div>
+                    <p class="explain">Project name: Travel Planner App<br>Service: Front-end development, UI/UX design</p>
+                </div>
+
+                <div class="container tabcontent" id="webdevone">
+                    <a class="projecttitle">Travel Plan App</a>
+                    <video width="100%" height="100%" controls>
+                            <source src="images/webdevone.mp4" type="video/mp4">
+                          </video>
+                    <p>This is a project I made in Udacity Front-end developer Nanodegree program.
+                        <br>The purpose of this app is to see the weather of the place and date people want to visit.
+                        <br>The skills used in this app is HTML5, CSS and JS.
+                        <br>The app also covers:
+                        <ul>
+                            <li>API Intergration</li>
+                            <li>Webpack entry point/</li>
+                            <li>Webpack output and dist folder</li>
+                            <li>Webpack Loaders, Plugins and Mode</li>
+                            <li>Tools for convenient Webpack development</li>
+                            <li> Service Workers</li>
+                        </ul>
+                    </p>
+            
+                      
+        </div>
+
+.nav-head li   .nav-head.dropdown{
+            min-width: 100%; /* Set width of the dropdown */
+            background: #F0F0F0;
+            display: none;
+            position: absolute;
+            z-index: 999;
+            left: 0;
+        }
+        .nav-head li:hover   .nav-head.dropdown{
+            display: block;	/* Display the dropdown */
+        }
+        .nav-head li   .nav-head.dropdown li{
+            display: block;
+        }
+        
