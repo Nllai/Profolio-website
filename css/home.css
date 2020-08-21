@@ -106,12 +106,12 @@ img.logo {
 
 .social-gallery{
 	padding-bottom:2vh;
-	margin-left:15vw;
-	margin-right:10vw;
+	margin: auto;
 	text-align: center;
+	width: 100%;
 }
 .gallery{
-	max-width: 30%;
+	max-width: 33.33%;
 	max-height: 60%;
 	position: relative;
 	display: flex;
@@ -174,7 +174,7 @@ img.logo {
 
 
   .bigcontainer{
-	width: 45%;
+	width: 70%;
 	text-align: center;
 	margin: auto;
 }
@@ -257,22 +257,27 @@ opacity: 1;
 	margin-top: 0;
 }
 
+
+.webdev{
+	width: 48%;
+	justify-content: space-evenly;
+	padding: 5px;
 }
 
 .webdev a{
 	position:relative;
-	display: flex;
+	display: inline-block;
 	flex-direction: row;
 	flex: 25%;
 	justify-content: space-evenly;
-	max-width:25vw;
-	max-height:50vh;
+	height:20vh;	
   }
   
   .webdev a img {
 	height:100%; 
 	width:100%;
 	object-fit:cover;
+
 }
 
   .webdev a:before, a:after{
@@ -286,20 +291,22 @@ opacity: 1;
 	content:'';
 	height:100%;
 	background:black;
+	
   }
   
   .webdev a:after{
 	content:attr(data-title);
-	font-size:24px;
+	font-size:2vw;
 	top:calc(50% - 0.5em);
 	left:0;
 	text-align:center;
 	color:#fff;
-	text-transform:uppercase;
+	font-family: 'Inconsolata', monospace;
   }
   
   .webdev a:hover:before, a:hover:after{
 	opacity:0.8;
+	height:100%
   }
 
 /** home3 contact form**/
@@ -312,11 +319,13 @@ opacity: 1;
 	width: 44vw;
 	text-align: left;
 	margin-bottom: 10vh;
+	margin-left:7vw;
 	color:black;
 }
 
 .container {
 	position: relative;
+	display: inline-block
 }
 .middle {
 	position: absolute;
@@ -476,7 +485,7 @@ footer{
 
 
 /* modal ------------------------------------------*/
-body {font-family: Arial, Helvetica, sans-serif;}
+
 
 #myImg {
   border-radius: 5px;
