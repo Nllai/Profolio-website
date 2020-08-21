@@ -116,7 +116,6 @@ img.logo {
 	position: relative;
 	display: flex;
 	justify-content: space-evenly;
-	background-color: black;
 }
 .gallery p {
 	position: absolute;
@@ -239,6 +238,7 @@ opacity: 1;
   margin: 5vw;
   background-color: #A1A3A6;
   opacity: 1;
+  padding-bottom:50px;
 }
 .titlename{
 	text-align: left;
@@ -446,8 +446,7 @@ footer{
 	width: 2em;
 	
   }
-  
-  }
+
   [class*="zocial-"]:hover {
 	color: #FF6347;
   }
