@@ -1,6 +1,7 @@
 
 @import url(https://weloveiconfonts.com/api/?family=brandico);
 @import url(https://weloveiconfonts.com/api/?family=zocial);
+@import url(https://weloveiconfonts.com/api/?family=iconicfill);
 article{
 	border-bottom: 1px solid #ddd;
 	color: #D9D9D9;
@@ -103,6 +104,12 @@ img.logo {
 	width: 100%;
 }
 
+.social-gallery{
+	padding-bottom:2vh;
+	margin-left:15vw;
+	margin-right:10vw;
+	text-align: center;
+}
 .gallery{
 	max-width: 30%;
 	max-height: 60%;
@@ -414,15 +421,23 @@ footer{
 	display: inline-block;
 	font-family: 'zocial', sans-serif;
 	width: 2em;
-	text-align: left;
+	
   }
   [class*="brandico-"]:before {
 	font-family: 'brandico', sans-serif;
 	color: grey;
 	display: inline-block;
 	width: 2em;
-	text-align: left;
+	
   }
+  [class*="iconicfill-"]:before {
+	font-family: 'IconicFill', sans-serif;
+	color: grey;
+	display: inline-block;
+	width: 2em;
+	
+  }
+  
   }
   [class*="zocial-"]:hover {
 	color: #FF6347;
@@ -430,7 +445,6 @@ footer{
 
   
 .social{
-	text-align: left;
 	padding-top:5vh;
 }
 .social a {
@@ -446,7 +460,7 @@ footer{
   }
 
 .contactpic{
-	max-width: 20vw;
+	max-width: 15vw;
 	opacity:1;
 }
   
