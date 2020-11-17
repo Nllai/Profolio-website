@@ -148,7 +148,7 @@ img.logo {
 	overflow: hidden;
 	text-align: center;
 	display: inline-block;
-	padding: 8vh 3vh 8vh 3vh;
+	padding: 8vw 0 2em 0;
 	margin: auto;
   }
   
@@ -273,10 +273,11 @@ opacity: 1;
 	color: black;
 }
 .webdev-subtitle{
-	color: black;
+	color: rgb(155, 59, 42);
 }
 .webdev-icon{
 	width: 3vw;
+	padding: 1vw 0 1vw 0;
 }
 .webdev a img {
 	height:100%; 
@@ -404,6 +405,14 @@ opacity: 1;
 
 }
 
+/*====== about page =======*/
+
+.about-text{
+	line-height: 1.6;
+	color: black;
+}
+
+/*====== about page end ========*/
 /*=================== contact form end ====================*/
 
 
