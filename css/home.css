@@ -69,6 +69,10 @@ img.logo {
 	color: #FF6347;
 }
 
+.brandico-linkedin a:hover{
+	color: #FF6347;
+}
+
 .text {
 	margin-top: 5%;
 	text-align:left;
@@ -241,8 +245,9 @@ opacity: 1;
 }
 .titlename{
 	text-align: left;
-	padding-top: 8vh;
+	padding-top: 38vh;
 	margin-bottom:0;
+	line-height: 1.6;
 }
 .title{
 	
@@ -573,5 +578,11 @@ footer{
   .modal-content {
     width: 100%;
   }
+  .projectnav a{
+	  font-size: 3vw;
+  }
 }
+
+
+
 /*--------------------end ----------------------------*/
