@@ -2,6 +2,9 @@
 @import url(https://weloveiconfonts.com/api/?family=zocial);
 @import url(https://weloveiconfonts.com/api/?family=iconicfill);
 
+.casestudy-content{
+    color:#424242;
+}
 .casestudy-headpic-img{
     height: 100%;
     width: 100vw;
@@ -9,5 +12,6 @@
     display: block;
    
 }
+
 
 
