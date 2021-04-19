@@ -422,6 +422,7 @@ opacity: 1;
 .about-text{
 	line-height: 1.6;
 	color: black;
+
 }
 
 /*====== about page end ========*/
@@ -436,7 +437,7 @@ footer{
 /*4 Zocial icons*/
 
 [class*="zocial-"]:before {
-	color: grey;
+	
 	display: inline-block;
 	font-family: 'zocial', sans-serif;
 	width: 2em;
