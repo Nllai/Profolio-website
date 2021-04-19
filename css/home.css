@@ -4,7 +4,7 @@
 @import url(https://weloveiconfonts.com/api/?family=iconicfill);
 article{
 	border-bottom: 1px solid #ddd;
-	color: #D9D9D9;
+	color: black;
 	font-family: 'Inconsolata', monospace;
 	-webkit-font-smoothing: antialiased; 
 	background-image:url(../images/top.gif);
@@ -12,6 +12,10 @@ article{
 	background-size:cover;
 	background-attachment: fixed;
 	background-position: center center;
+}
+.email{
+	color: #9B8A47;
+	font-size: .8em;
 }
 
 img.logo {
@@ -165,17 +169,22 @@ img.logo {
   }
   
   .projectnav a:hover {
-	border-top: 3px solid red;
+	border-top: 3px solid black;
   }
   
   .projectnav a.active {
-	border-top: 3px solid red;
+	border-top: 3px solid black;
   }
 
 
   .bigcontainer{
 	text-align: center;
 	margin: auto;
+	border-color: #9B8A47;  
+    border-width: 1em;  
+    border-style: solid;  
+	background-color: #EBE5D0;
+
 }
 .mySlides .numbertext{
 	color:black;
@@ -237,13 +246,14 @@ opacity: 1;
   margin: 50px 30px 30px 30px;
   background-color: #A1A3A6;
   opacity: 1;
-  padding-bottom:50px;
+ 
 }
 .titlename{
 	text-align: left;
 	padding-top: 38vh;
 	margin-bottom:0;
 	line-height: 1.6;
+	color: white;
 }
 .title{
 	
@@ -257,7 +267,8 @@ opacity: 1;
 	margin-top: 0;
 }
 .webdev{
-	
+	background-color: #EBE5D0;
+	padding-top:5vh;
 }
 .webdev-picture{
 	width: 50vw;
@@ -273,7 +284,8 @@ opacity: 1;
 	color: black;
 }
 .webdev-subtitle{
-	color: rgb(155, 59, 42);
+	color: #9B8A47;
+	font-size: 1.2em;
 }
 .webdev-icon{
 	width: 3vw;
